@@ -17,9 +17,13 @@ class HalamanSatu extends StatelessWidget {
                 width: 200.0,
                 height: 200.0,
                 child: new Center(
-                  child: new Icon(Icons.access_alarm,
-                  )
-
+                  child : new Text(
+                    "HALO BOSQUE BEN",
+                    style: new TextStyle(
+                        color: Colors.white,
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold),
+                  ),
                 )) //,
             ));
   }
